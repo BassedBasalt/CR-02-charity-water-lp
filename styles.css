@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Avenir', 'Proxima Nova', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar Styles */
@@ -39,25 +39,28 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #2E9DF7;
+  text-decoration: underline;
 }
 
 /* Hero Section */
-/* 
-  The hero section has a solid background color instead of an image.
-  The text is centered both vertically and horizontally.
-*/
 .hero {
-  /* Use the 4750_Ethiopia.jpg image from the local img folder as the background */
-  background-image: url('img/4750_Ethiopia.jpg');
+  background-image: url('img/4750_Ethiopia_2019_CG-.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding-top: 400px;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
   color: white;
-  margin-top: 80px; /* to prevent overlap with navbar */
-  text-align: center; /* Center text inside the hero */
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .hero-content {
@@ -67,30 +70,54 @@ body {
 
 .hero h1 {
   font-size: 64px;
-  color: #FFC907; /* Brand yellow */
+  color: #FFC907;
   margin-bottom: 20px;
 }
 
 .hero p {
   font-size: 24px;
-  color: #8BD1CB; /* Brand light blue */
+  color: #8BD1CB;
   margin-bottom: 30px;
 }
 
 .cta-button {
-  background-color: #2E9DF7; /* Brand blue */
+  background-color: #2E9DF7;
   color: white;
   padding: 15px 30px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* Responsive: Make hero text smaller on small screens */
+.cta-button:hover,
+.cta-button:focus {
+  background-color: #1c87e6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .nav-links {
     gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
   }
 
   .hero h1 {
@@ -99,5 +126,10 @@ body {
 
   .hero p {
     font-size: 20px;
+  }
+
+  .cta-button {
+    padding: 12px 20px;
+    font-size: 14px;
   }
 }
