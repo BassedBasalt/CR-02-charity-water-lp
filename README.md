@@ -8,17 +8,24 @@ With help from AI to jumpstart your layout, you'll focus on structuring your con
 ## charity: water Brand Colors & Fonts
 
 ### Primary Colors:
-- Yellow:     `#FFC907`
-- Blue:       `#2E9DF7`
+- Yellow: `#FFC907`
+- Blue: `#2E9DF7`
 
 ### Secondary Colors:
 - Light Blue: `#8BD1CB`
-- Green:      `#4FCB53`
-- Orange:     `#FF902A`
-- Red:        `#F5402C`
+- Green: `#4FCB53`
+- Orange: `#FF902A`
+- Red: `#F5402C`
 - Dark Green: `#159A48`
-- Pink:       `#F16061`
+- Pink: `#F16061`
 
 ### Fonts:
 - Proxima Nova
 - Avenir
+
+<!--
+Tip for beginners:
+To use these colors in your CSS, copy the hex code (for example, #FFC907) and use it in your style rules.
+To use the fonts, add them to your CSS font-family property, like this:
+font-family: 'Avenir', 'Proxima Nova', sans-serif;
+-->

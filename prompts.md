@@ -8,6 +8,12 @@ Write CSS using a color palette of [insert your brand colors] and fonts that fee
 
 ## Build the Hero Section
 Create a hero section with a centered headline, subheadline, and full-width background image that grabs attention.
+<!--
+Tip for beginners:
+- Use a <section> for the hero area.
+- Add a <h1> for the main headline and a <p> for the subheadline.
+- Use CSS to set a background image, center the text, and make the section full width.
+-->
 
 ## Add Story + CTA Sections
 Add a section for a real-world impact story with text and an image, and a donation section with a bold 'Donate Now' button.
